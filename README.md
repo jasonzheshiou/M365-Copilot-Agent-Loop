@@ -5,16 +5,25 @@ Turn your standard Microsoft 365 Copilot chatbox into an autonomous, self-correc
 This framework acts as a bridge. It leverages your native **OneDrive cloud sync** to pass code modifications directly to your local computer, executes them, logs terminal output or errors, and prepares feedback logs to drop back into Copilot.
 
 ---
+## ⚠️ Context & Project Status (Please Read First)
+
+**Author Background:** Actuary passionate about enterprise AI governance and open-source automation. 
+
+**Project Status:** UNTESTED CONCEPTUAL BLUEPRINT. 
+
+**Development Context:** This is an independent personal project created entirely outside of work hours and off company networks (developed via mobile browser during personal commute). Publicly available Google AI was used strictly as a coding assistant.
+
+📢 **Call for Collaboration:** I am opening this to the community immediately! Actuaries, developers, and data professionals: please test, break, patch, and share ideas via Issues and Pull Request.
 
 ## ⚠️ Context & Project Status (Please Read First)
-Author Background: I am an Actuary working within the AI Working Group. 
 
-Project Status: UNTESTED CONCEPTUAL BLUEPRINT. 
+**Author Background:** Actuary passionate about enterprise AI governance and open-source automation. 
 
-Development Context: I collaborated with Google AI while going to work to derive and structure this technical workflow framework. The code provided here has not been thoroughly live-tested yet, but I plan to test it extensively. 
+**Project Status:** UNTESTED CONCEPTUAL BLUEPRINT. 
 
-📢 Call for Collaboration: I am opening this up to the community immediately to invite fellow actuaries, developers, and data professionals to try this methodology, break it, patch it, and share ideas via GitHub Issues and Pull Requests!
+**Development Context:** This is an independent personal project created entirely outside of work hours and off company networks (developed via mobile browser during personal commute). Publicly available Google AI was used strictly as a coding assistant.
 
+📢 **Call for Collaboration:** I am opening this to the community immediately! Actuaries, developers, and data professionals: please test, break, patch, and share ideas via Issues and Pull Requests.
 
 
 ## How It Works (The Core Loop)
