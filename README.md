@@ -10,9 +10,8 @@ This framework acts as a bridge. It leverages your native **OneDrive cloud sync*
 Author Background: I am an Actuary working within the AI Working Group. 
 
 Project Status: UNTESTED CONCEPTUAL BLUEPRINT. 
-Many actuaries and enterprise professionals operate in locked-down corporate environments where they only have access to the standard M365 Copilot web/Teams interface. Dedicated agentic coding frameworks cannot be installed. This repository was created as an open idea-sharing playground to solve that limitation. 
 
-Development Context: I collaborated with Google AI to derive and structure this technical workflow framework. The code provided here has not been thoroughly live-tested yet, but I plan to test it extensively. 
+Development Context: I collaborated with Google AI while going to work to derive and structure this technical workflow framework. The code provided here has not been thoroughly live-tested yet, but I plan to test it extensively. 
 
 📢 Call for Collaboration: I am opening this up to the community immediately to invite fellow actuaries, developers, and data professionals to try this methodology, break it, patch it, and share ideas via GitHub Issues and Pull Requests!
 
@@ -140,6 +139,13 @@ Before running or deploying this code in a corporate enterprise workspace, revie
 
 1. **Human-In-The-Loop Security:** This architecture requires a manual copy-paste step by design. This acts as an air-gap security feature. Never use automated macro injection utilities to auto-send prompts to your M365 environment, as this violates corporate browser safety policies and standard terms of service.
 2. **Intellectual Property Shield:** When uploading rules or text to public GitHub repositories, ensure you strip out all enterprise code samples, internal database endpoints, private secrets, API authorization keys, or corporate schemas. Keep your rules purely generic.
+
+## ⚠️ Important Security & Sandboxing Architecture (CRITICAL)
+
+1. **Sandboxing Required:** Because `copilot_agent.py` automatically executes synchronized script files via subprocesses, it poses a Remote Code Execution (RCE) risk if Copilot hallucinates destructive code. **Never run this script directly on your primary host operating system.** Always run the watcher loop inside an isolated Docker container, a disposable virtual machine, or a highly restricted python virtual environment (venv).
+2. **Data Isolation Policy:** This concept is strictly for local code generation testing (e.g., utility functions, algorithms). Never use this framework with live actuarial financial models, regulatory reports, or Protected Health Information (PHI) / Personally Identifiable Information (PII). 
+3. **Corporate Policy Compliance:** Ensure your organization's data governance policies permit syncing code generation prompts through OneDrive before executing. This framework is an independent open-source educational blueprint and does not represent an official enterprise release.
+
 
 ---
 
