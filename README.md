@@ -6,7 +6,7 @@ This framework acts as a bridge. It leverages your native **OneDrive cloud sync*
 
 ---
 
-⚠️ Context & Project Status (Please Read First)
+## ⚠️ Context & Project Status (Please Read First)
 Author Background: I am an Actuary working within the AI Working Group. 
 
 Project Status: UNTESTED CONCEPTUAL BLUEPRINT. 
