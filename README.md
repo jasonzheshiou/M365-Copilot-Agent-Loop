@@ -6,6 +6,18 @@ This framework acts as a bridge. It leverages your native **OneDrive cloud sync*
 
 ---
 
+⚠️ Context & Project Status (Please Read First)
+Author Background: I am an Actuary working within the AI Working Group. 
+
+Project Status: UNTESTED CONCEPTUAL BLUEPRINT. 
+Many actuaries and enterprise professionals operate in locked-down corporate environments where they only have access to the standard M365 Copilot web/Teams interface. Dedicated agentic coding frameworks cannot be installed. This repository was created as an open idea-sharing playground to solve that limitation. 
+
+Development Context: I collaborated with Google AI to derive and structure this technical workflow framework. The code provided here has not been thoroughly live-tested yet, but I plan to test it extensively. 
+
+📢 Call for Collaboration: I am opening this up to the community immediately to invite fellow actuaries, developers, and data professionals to try this methodology, break it, patch it, and share ideas via GitHub Issues and Pull Requests!
+
+
+
 ## How It Works (The Core Loop)
 1. **Plan & Write:** You prompt M365 Copilot to write or update a `.py` script based on instructions.
 2. **Sync:** Copilot outputs the code block, and you save it directly over the target file in your local `Microsoft Copilot Chat Files` OneDrive folder.
